@@ -24,7 +24,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 - **Node.js** v18 o superior
 - **npm** (incluido con Node.js)
-- **Angular CLI** v19
+- **Angular CLI** v20
 
 ## 🚀 Instalación y Configuración
 
@@ -114,6 +114,10 @@ Para cada personaje se visualiza:
 - [ ] Vista de detalle individual para cada personaje
 - [ ] Filtros por estado y especie
 - [ ] Modo oscuro/claro
+
+📸 Capturas de Pantalla
+![image](https://github.com/user-attachments/assets/9459014a-f7f1-4e5e-9653-c23bfddcef23)
+
 
 
 ## 🙏 Agradecimientos
