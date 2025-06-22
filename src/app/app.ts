@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CharacterListComponent } from './components/character-list/character-list'; // <-- 1. IMPORTA TU COMPONENTE
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, CharacterListComponent], // <-- 2. AÑÁDELO A LOS IMPORTS
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected title = 'rick-y-morty-app';
+export class AppComponent {
+  title = 'rick-y-morty-app';
 }

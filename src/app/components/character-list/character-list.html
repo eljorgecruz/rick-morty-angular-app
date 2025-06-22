@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Galería de Personajes de Rick and Morty</h1>
+  <!-- <p>Total de personajes: {{ characters.length }}</p> -->
+  <div class="grid">
+    <!-- Loop through each character in the 'characters' array -->
+    <div *ngFor="let character of characters" class="card">
+      <img [src]="character.image" [alt]="character.name">
+      <div class="card-body">
+        <h2>{{ character.name }}</h2>
+        <p><strong>Estado:</strong> {{ character.status }}</p>
+        <p><strong>Especie:</strong> {{ character.species }}</p>
+      </div>
+    </div>
+  </div>
+</div>
